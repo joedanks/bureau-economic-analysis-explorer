@@ -1,7 +1,7 @@
 function DatasetSelect(props) {
     function getDatasetListOptions(datasetList) {
         return datasetList.map(ds => {
-            return (<option value={ds.DatasetName}>{ds.DatasetName} ({ds.DatasetDescription})</option>)
+            return (<option key={ds.DatasetName} value={ds.DatasetName}>{ds.DatasetName} ({ds.DatasetDescription})</option>)
         })
     }
 

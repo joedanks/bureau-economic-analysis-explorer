@@ -21,7 +21,7 @@ const beaService = {
             if (results.Error) {
                 throw new Error(JSON.stringify(results.Error))
             }
-            return results.Dataset
+            return results.Parameter
         })
     }
 }

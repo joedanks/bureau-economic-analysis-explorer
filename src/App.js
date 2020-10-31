@@ -5,10 +5,10 @@ import DatasetSelect from './DatasetSelect';
 import Parameters from './Parameters';
 
 function App() {
-  const [apiKey, setApiKey] = useState();
-  const [error, setError] = useState();
+  const [apiKey, setApiKey] = useState('');
+  const [error, setError] = useState('');
   const [datasetList, setDatasetList] = useState([]);
-  const [dataset, setDataset] = useState();
+  const [dataset, setDataset] = useState('');
   const [parameters, setParameters] = useState([]);
 
   useEffect(() => {
@@ -27,7 +27,7 @@ function App() {
     }
   }, [apiKey])
 
-  useEffect(async () => {
+  useEffect(() => {
     if (dataset) {
       beaService.getParameters(apiKey, dataset)
         .then(response => {
@@ -47,7 +47,9 @@ function App() {
       {datasetList.length > 0 &&
         <DatasetSelect datasetList={datasetList} dataset={dataset} setDataset={setDataset} />
       }
-      
+      {parameters.length > 0 &&
+        <Parameters parameters={parameters}/>
+      }
     </div>
   );
 }

@@ -3,8 +3,8 @@ function Parameters(props) {
         return (
             <div key={parameter.ParameterName}>
                 <label>{parameter.ParameterName}</label>
-                <p>{parameter.ParameterDescription}</p>
-                <label>Required: {!parameter.ParameterIsRequiredFlag}</label>
+                <span>{parameter.ParameterDescription}</span>
+                <label>Required: {parameter.ParameterIsRequiredFlag == 1 ? 'True' : 'False'}</label>
             </div>
         )
     }
