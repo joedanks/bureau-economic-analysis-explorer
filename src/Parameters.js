@@ -33,8 +33,8 @@ function Parameters(props) {
               <TableCell component="th" scope="row">
                 {parameter.ParameterName}
               </TableCell>
-              <TableCell align="left">{parameter.ParameterDescription}</TableCell>
-              <TableCell align="left">{parameter.ParameterIsRequiredFlag}</TableCell>
+              <TableCell align="right">{parameter.ParameterDescription}</TableCell>
+              <TableCell align="right">{parameter.ParameterIsRequiredFlag == 1 ? 'True' : 'False'}</TableCell>
             </TableRow>
           ))}
         </TableBody>

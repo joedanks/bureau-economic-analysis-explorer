@@ -5,7 +5,7 @@ import DatasetSelect from './DatasetSelect';
 import Parameters from './Parameters';
 
 function App() {
-  const [apiKey, setApiKey] = useState('0F4BB1B1-D6C6-4FC7-B7F6-0C15CEF95218');
+  const [apiKey, setApiKey] = useState('');
   const [error, setError] = useState('');
   const [datasetList, setDatasetList] = useState([]);
   const [dataset, setDataset] = useState('');

@@ -9,6 +9,7 @@ function DatasetSelect(props) {
         <div>
             <label>Data set: </label>
             <select value={props.dataset} onChange={e => props.setDataset(e.target.value)}>
+                <option value={undefined}></option>
                 {getDatasetListOptions(props.datasetList)}
             </select>
         </div>
