@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/bureau-economic-analysis-explorer/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/bureau-economic-analysis-explorer/static/js/main.4c4a591f.chunk.js",
-    "main.js.map": "/bureau-economic-analysis-explorer/static/js/main.4c4a591f.chunk.js.map",
-    "runtime-main.js": "/bureau-economic-analysis-explorer/static/js/runtime-main.d7c9831f.js",
-    "runtime-main.js.map": "/bureau-economic-analysis-explorer/static/js/runtime-main.d7c9831f.js.map",
-    "static/js/2.a3ca0a21.chunk.js": "/bureau-economic-analysis-explorer/static/js/2.a3ca0a21.chunk.js",
-    "static/js/2.a3ca0a21.chunk.js.map": "/bureau-economic-analysis-explorer/static/js/2.a3ca0a21.chunk.js.map",
-    "static/js/3.86c5396e.chunk.js": "/bureau-economic-analysis-explorer/static/js/3.86c5396e.chunk.js",
-    "static/js/3.86c5396e.chunk.js.map": "/bureau-economic-analysis-explorer/static/js/3.86c5396e.chunk.js.map",
+    "main.js": "/bureau-economic-analysis-explorer/static/js/main.7e924386.chunk.js",
+    "main.js.map": "/bureau-economic-analysis-explorer/static/js/main.7e924386.chunk.js.map",
+    "runtime-main.js": "/bureau-economic-analysis-explorer/static/js/runtime-main.9534a7b1.js",
+    "runtime-main.js.map": "/bureau-economic-analysis-explorer/static/js/runtime-main.9534a7b1.js.map",
+    "static/js/2.64d495cd.chunk.js": "/bureau-economic-analysis-explorer/static/js/2.64d495cd.chunk.js",
+    "static/js/2.64d495cd.chunk.js.map": "/bureau-economic-analysis-explorer/static/js/2.64d495cd.chunk.js.map",
+    "static/js/3.6e87e799.chunk.js": "/bureau-economic-analysis-explorer/static/js/3.6e87e799.chunk.js",
+    "static/js/3.6e87e799.chunk.js.map": "/bureau-economic-analysis-explorer/static/js/3.6e87e799.chunk.js.map",
     "index.html": "/bureau-economic-analysis-explorer/index.html",
     "static/css/main.ab7136cd.chunk.css.map": "/bureau-economic-analysis-explorer/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.a3ca0a21.chunk.js.LICENSE.txt": "/bureau-economic-analysis-explorer/static/js/2.a3ca0a21.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/bureau-economic-analysis-explorer/static/media/logo.103b5fa1.svg"
+    "static/js/2.64d495cd.chunk.js.LICENSE.txt": "/bureau-economic-analysis-explorer/static/js/2.64d495cd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d7c9831f.js",
-    "static/js/2.a3ca0a21.chunk.js",
+    "static/js/runtime-main.9534a7b1.js",
+    "static/js/2.64d495cd.chunk.js",
     "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.4c4a591f.chunk.js"
+    "static/js/main.7e924386.chunk.js"
   ]
 }
